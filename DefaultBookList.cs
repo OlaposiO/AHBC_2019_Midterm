@@ -22,7 +22,7 @@ namespace AHBC_2019_Midterm_JulyBC
             new Book("As I Lay Dying", "William Faulkner", false),
             new Book("The Lord of the Rings", "J.R.R. Tolkien", false)
             };
-
+            books.Sort();
             SaveLoad.Save(books);
             return books;
         }
